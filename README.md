@@ -1,0 +1,2 @@
+# Ethanz-website
+cool website
