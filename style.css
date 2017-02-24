@@ -1,14 +1,30 @@
-<!DOCTYPE html>
-<html>
-<body>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-<h2 style="background-color:rgb(255,0,0)">
-Background-color set by using rgb(255,0,0)
-</h2>
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-</html>
+li a:hover:not(.active) {
+    background-color: powderblue;
+}
 
+.active {
+    background-color:powderblue;
+}
 
 
 
